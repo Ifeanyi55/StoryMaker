@@ -39,4 +39,4 @@ $label
 $confidence
 [1] 0.9360319
 ```
-It is that simple. :smiley:
+It is that simple, and it demonstrates how easy it is to bring Gradio applications into your R project. The future of data science and software is certainly bright! :smiley:
