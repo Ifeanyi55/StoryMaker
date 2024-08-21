@@ -23,12 +23,12 @@ Sys.setenv(HUGGINGFACE_TOKEN = "your Hugging Face token")
 fox <- gr_client$handle_file("fox.jpg")
 
 # instantiate the client by passing the name of the Hugging Face space and your Hugging Face token
-what_client <- gr_client$Client(src = "Ifeanyi/tellme.ai",
+tellme_client <- gr_client$Client(src = "Ifeanyi/tellme.ai",
                                 hf_token = Sys.getenv("HUGGINGFACE_TOKEN"),
                                 verbose = F)
 
 # classify the image
-class <- what_client$predict(param_0 = fox,
+class <- tellme_client$predict(param_0 = fox,
                              api_name = "/predict")
 
 print(class$confidences[[1]])
