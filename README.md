@@ -1,5 +1,8 @@
 # **Story Maker** 📖
 This R Shiny application utilizes the [Gradio Python client](https://www.gradio.app/guides/getting-started-with-the-python-client) to call the API of an image-to-text [Gradio](https://www.gradio.app/docs) application currentlty hosted and running as a space on [Hugging Face](https://huggingface.co/). 
+
+![Story Maker](StoryMaker.png)
+
 Thanks to the [reticulate](https://rstudio.github.io/reticulate/) R package, which provides the interface between R and Python, you can install and load Python modules in your R environment and use them in your R projects.
 
 Here is an example of how to install, import, and use the Gradio Python client to call the API of an image classification Python application in R.
