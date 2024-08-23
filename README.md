@@ -1,5 +1,5 @@
 # **Story Maker** 📖
-This R Shiny application utilizes the [Gradio Python client](https://www.gradio.app/guides/getting-started-with-the-python-client) to call the API of an image-to-text Python [Gradio](https://www.gradio.app/docs) application currentlty hosted and running as a space on [Hugging Face](https://huggingface.co/). 
+This R Shiny application utilizes the [Gradio Python client](https://www.gradio.app/guides/getting-started-with-the-python-client) to call the API of an image-to-text Python [Gradio](https://www.gradio.app/docs) application ([Image-To-Story](https://ifeanyi-image-to-story.hf.space/)) currently hosted and running as a space on [Hugging Face](https://huggingface.co/). 
 
 ![Story Maker](StoryMaker.png)
 
