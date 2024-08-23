@@ -5,7 +5,7 @@ This R Shiny application utilizes the [Gradio Python client](https://www.gradio.
 
 Thanks to the [reticulate](https://rstudio.github.io/reticulate/) R package, which provides the interface between R and Python, you can install and load Python modules in your R environment and use them in your R projects.
 
-Here is an example of how to install, import, and use the Gradio Python client to call the API of an image classification Python Gradio application in R.
+Here is an example of how to install, import, and use the Gradio Python client to call the API of an image classification Python Gradio application ([What AM I](https://what-am-i.netlify.app/)) in R.
 
 ```
 library(reticulate)
@@ -23,7 +23,7 @@ Sys.setenv(HUGGINGFACE_TOKEN = "your Hugging Face token")
 fox <- gr_client$handle_file("fox.jpg")
 
 # instantiate the client by passing the name of the Hugging Face space and your Hugging Face token
-tellme_client <- gr_client$Client(src = "Ifeanyi/tellme.ai",
+tellme_client <- gr_client$Client(src = "Ifeanyi/tellme.ai", # name of Hugging Face space
                                 hf_token = Sys.getenv("HUGGINGFACE_TOKEN"),
                                 verbose = F)
 
